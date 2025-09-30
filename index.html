@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Augusto Brunello — Portafolio · CV</title>
+  <meta name="description" content="Portafolio y CV de Augusto Brunello: estudiante técnico en informática con proyectos de software, hardware y servidores."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="loader" id="loader"></div>
+  <div class="grid-bg" aria-hidden="true"></div>
+  <div class="blob b1" aria-hidden="true"></div>
+  <div class="blob b2" aria-hidden="true"></div>
+  <div class="blob b3" aria-hidden="true"></div>
+
+  <header class="hero">
+    <div class="wrap">
+      <div class="hero-card reveal">
+        <div class="hero-content">
+          <img src="yo.jpg" alt="Foto de Augusto Brunello" class="avatar">
+          <div class="title">
+            <h1>Augusto Brunello</h1>
+            <p class="tagline">Estudiante técnico en informática · Desarrollo, ciberseguridad y sistemas</p>
+            <div class="badges">
+              <span class="badge">18 años</span>
+              <span class="badge">Berazategui, Buenos Aires</span>
+              <span class="badge accent">Inglés: Upper Intermediate</span>
+              <span class="badge">Autodidacta · Comprometido · Ambicioso </span>
+            </div>
+          </div>
+        </div>
+        <div class="contacts">
+          <a class="contact" href="tel:+541132280157" title="Llamar">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.09 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.9.33 1.77.62 2.61a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.47-1.17a2 2 0 0 1 2.11-.45c.84.29 1.71.5 2.61.62A2 2 0 0 1 22 16.92z"/>
+            </svg>
+            <span class="contact-text">+54 11 3228 0157</span>
+          </a>
+          <a class="contact" href="mailto:augustobrunello111@gmail.com" title="Enviar correo">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            <span class="contact-text">augustobrunello111@gmail.com</span>
+          </a>
+        </div>
+      </div>
+
+      <nav class="tabs" aria-label="Secciones">
+        <a class="tab" href="#perfil">Perfil</a>
+        <a class="tab" href="#formacion">Formación</a>
+        <a class="tab" href="#skills">Conocimientos</a>
+        <a class="tab" href="#experiencia">Experiencia</a>
+        <a class="tab" href="#proyectos">Proyectos</a>
+        <a class="tab" href="#habilidades">Habilidades blandas</a>
+        <a class="tab" href="#logros">Logros</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="perfil" class="section">
+      <h2>Perfil personal</h2>
+      <p class="hint">Resumen breve de quién soy y qué aporto.</p>
+      <div class="grid cols-2">
+        <article class="card reveal">
+          <div class="corner"></div>
+          <p>Estudiante técnico en informática con experiencia en proyectos de software, hardware y servidores.</p>
+          <p> Me destaco por la curiosidad tecnológica, la capacidad autodidacta y el compromiso en el trabajo en equipo. Interesado en desarrollo de software, ciberseguridad y administración de sistemas.</p>
+
+          <div class="cta">
+            <a class="btn" href="#proyectos">Ver proyectos</a>
+            <a class="btn secondary" href="#skills">Ver conocimientos</a>
+          </div>
+        </article>
+        <aside class="postit reveal" aria-label="Nota de pasantías">
+         <strong>Objetivo de pasantía</strong><br/>
+          <small>Busco integrarme en un entorno profesional donde pueda adquirir experiencia laboral real en áreas de demanda. Mi objetivo es aprender nuevas habilidades, fortalecer mis conocimientos y crecer junto a un equipo de trabajo colaborativo.</small>
+
+      </div>
+    </section>
+
+    <section id="formacion" class="section">
+      <h2>Formación académica</h2>
+      <div class="grid cols-2">
+        <article class="card reveal timeline">
+          <div class="corner"></div>
+          <div class="tl-item">
+            <h3>Escuela Técnica Florentino Ameghino</h3>
+            <p class="muted">Orientación: Técnico Profesional en Informática · <em>6° año de 7  (en curso)</em></p>
+            <p><strong>Materias fuertes:</strong> Programación, Aplicaciones, Hardware, Sistemas Operativos, Matemática, Inglés.</p>
+          </div>
+          <div class="tl-item">
+            <h3>Instituto BigBen</h3>
+            <p>Inglés – <em>Upper Intermediate (6to año terminado)</em> con título.</p>
+          </div>
+          <div class="tl-item">
+            <h3>Cursos adicionales</h3>
+            <ul>
+              <li>Python (Sololearn, certificado).</li>
+              <li>Bases de Blender y Modelaje 3D (Youtube)</li>
+              <li>Participación en OATEC 2024 (ITBA).</li>
+            </ul>
+          </div>
+        </article>
+        <article class="card reveal">
+          <h3>Datos personales</h3>
+          <p><strong>Nombre:</strong> Augusto Brunello</p>
+          <p><strong>Edad:</strong> 18 años</p>
+          <p><strong>Localidad:</strong> Berazategui, Buenos Aires</p>
+          <p><strong>Teléfono:</strong> +54 11 3228 0157</p>
+          <p><strong>Correo:</strong> augustobrunello111@gmail.com</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Conocimientos técnicos</h2>
+      <p class="hint">Lenguajes, herramientas, sistemas y más.</p>
+      <div class="grid cols-3">
+        <article class="card reveal">
+          <h3>Lenguajes</h3>
+          <div class="skills">
+            <div class="skill"><div>Python</div><div class="meter"><i style="width:90%"></i></div></div>
+            <div class="skill"><div>C#</div><div class="meter"><i style="width:60%"></i></div></div>
+            <div class="skill"><div>JavaScript</div><div class="meter"><i style="width:80%"></i></div></div>
+            <div class="skill"><div>HTML · CSS</div><div class="meter"><i style="width:100%"></i></div></div>
+            <div class="skill"><div>PostgreSQL (Supabase)</div><div class="meter"><i style="width:80%"></i></div></div>
+          </div>
+        </article>
+        <article class="card reveal">
+          <h3>Herramientas</h3>
+          <div class="pill">React (básico)</div>
+          <div class="pill">Bash · Linux terminal</div>
+          <div class="pill">Root Server · SSH </div>
+          <div class="pill">FlutterFlow</div>
+          <div class="pill">Git · GitHub</div>
+          <div class="pill">VS Code</div>
+          <div class="pill">Unity</div>
+          <div class="pill">VMWare</div>
+          <div class="pill">Blender (3D básico)</div>
+          <div class="pill">Packet Tracer</div>
+          <div class="pill">Office · LibreOffice</div>
+          <div class="pill">Gimp</div>
+        </article>
+        <article class="card reveal">
+          <h3>Sistemas · Hardware · Redes</h3>
+          <ul>
+            <li>Linux (Ubuntu/Debian), Windows</li>
+            <li>Armado · Administracion de redes</li>
+            <li>Configuracion de Servidores</li>
+            <li>Armado y mantenimiento de PCs</li>
+            <li>Diagnóstico y reparación</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="experiencia" class="section">
+      <h2>Experiencia Laboral</h2>
+      <div class="grid cols-2">
+        <article class="card reveal">
+          <h3>Clases particulares de Python</h3>
+          <p>Curso Introductorio y de apoyo a un estudiante de otra técnica.</p>
+          <ul>
+            <li>Variables, estructuras de datos y lógica.</li>
+            <li>Planificación y adaptación de contenidos.</li>
+          </ul>
+        </article>
+        <article class="card reveal">
+          <h3>Mantenimiento de PCs y consolas</h3>
+          <ul>
+            <li>Armado, reparación y optimización de PCs.</li>
+            <li>Instalación de SO, drivers y redes.</li>
+            <li>Modificación de consolas (PS3/Xbox 360).</li>
+          </ul>
+        </article>
+        
+      </div>
+    </section>
+
+
+    <section id="proyectos" class="section">
+      <h2>Experiencia práctica y proyectos</h2>
+      <div class="grid cols-3">
+        <article class="card project reveal">
+          <div class="corner"></div>
+          <h3>ElectriCHE</h3>
+          <p>Sistema para medir consumo eléctrico en tiempo real.</p>
+          <ul>
+            <li><strong>Hardware:</strong> ESP8266 + sensor ACS712.</li>
+            <li><strong>Software/API:</strong> Envío de datos a la nube.</li>
+            <li><strong>Base de datos:</strong> Supabase.</li>
+            <li><strong>App:</strong> FlutterFlow para visualizar resultados.</li>
+          </ul>
+          <div class="pill">Ambiental</div>
+          <div class="pill">Destacado por docentes</div>
+        </article>
+        <article class="card project reveal">
+          <div class="corner"></div>
+          <h3>Servidor ARK: Survival Evolved (ASE)</h3>
+          <p>Administración de servidor dedicado en Linux.</p>
+          <ul>
+            <li>Análisis comparativo de proveedores y elección de Netcup como opción más beneficiosa.</li>
+            <li>configuración en root server (Ubuntu/Debian).</li>
+            <li>Scripts para backups, reinicios y anuncios.</li>
+            <li>Gestión de rendimiento y mods.</li>
+            <li>Soporte internacional en inglés.</li>
+          </ul>
+        </article>
+        <article class="card project reveal">
+          <div class="corner"></div>
+          <h3>Juego Unity – <em>The Train</em></h3>
+          <p>platformer 3D en Unity (C#, MVC).</p>
+          <ul>
+            <li>Mecánicas, obstáculos y mapa interactivo.</li>
+            <li>Integración de assets, animaciones y colisiones.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="experiencia" class="section">
+      <h2>Experiencia freelance práctica</h2>
+      <div class="grid cols-2">
+        <article class="card reveal">
+          <h3>Mantenimiento de PCs y consolas</h3>
+          <ul>
+            <li>Armado, reparación y optimización de PCs.</li>
+            <li>Instalación de SO, drivers y redes.</li>
+            <li>Modificación de consolas (PS3/Xbox 360).</li>
+          </ul>
+        </article>
+        <article class="card reveal">
+          <h3>Clases particulares de Python</h3>
+          <p>Curso introductorio de para un estudiante de otra Secundaria Técnica.</p>
+          <ul>
+            <li>Variables, estructuras de datos y lógica.</li>
+            <li>Planificación y adaptación de contenidos.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="habilidades" class="section">
+      <h2>Habilidades blandas y experiencias</h2>
+      <div class="grid cols-2">
+        <article class="card reveal">
+          <h3>Teatro Puesta en Escena (2023 – Actualidad)</h3>
+          <ul>
+            <li>Seguridad al hablar en público</li>
+            <li>Comunicación efectiva y lenguaje corporal</li>
+            <li>Trabajo en equipo y adaptabilidad</li>
+            <li>Expresión creativa y confianza</li>
+          </ul>
+        </article>
+        <article class="card reveal">
+          <h3>Complementos</h3>
+          <div class="pill">Aprendizaje rápido</div>
+          <div class="pill">Responsabilidad</div>
+          <div class="pill">Creatividad</div>
+          <div class="pill">Resolución de problemas</div>
+          <div class="pill">Motivación constante</div>
+        </article>
+      </div>
+    </section>
+
+    <section id="logros" class="section">
+      <h2>Logros y aprendizajes</h2>
+      <div class="grid cols-2">
+        <article class="card reveal">
+          <ul>
+            <li>Autodidacta en programación (Python, Unity, desarrollo web).</li>
+            <li>Integración de hardware y software en proyectos reales.</li>
+            <li>Administración de servidores Linux.</li>
+            <li>Liderazgo y trabajo en equipo en proyectos escolares y personales.</li>
+            <li>Confianza para presentar ideas.</li>
+          </ul>
+        </article>
+        <article class="card reveal">
+          <h3>Intereses profesionales</h3>
+          <ul>
+            <li>Desarrollo de software (apps, juegos, web).</li>
+            <li>Administración de servidores y redes.</li>
+            <li>Ciberseguridad.</li>
+            <li>IA y automatización.</li>
+          </ul>
+        </article>
+      </div>
+      <div class="cta">
+      <a class="btn" href="CV-Brunello.pdf" download="CV-Brunello.pdf">
+       Descargar versión imprimible
+      </a>
+</div>
+    </section>
+
+    <footer id="contacto" class="section" style="margin-bottom:60px">
+      <div class="card reveal contact-footer">
+        <h3>Contacto</h3>
+        <p>¿Querés referencias o más información? Estoy disponible para entrevista.</p>
+        <div class="contacts">
+          <a class="contact" href="tel:+541132280157">
+            <span>📞</span>
+            <span>+54 11 3228 0157</span>
+          </a>
+          <a class="contact" href="mailto:augustobrunello111@gmail.com">
+            <span>✉️</span>
+            <span>augustobrunello111@gmail.com</span>
+          </a>
+        </div>
+      </div>
+      <p class="copyright">© <span id="year"></span> Augusto Brunello</p>
+    </footer>
+  </main>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
